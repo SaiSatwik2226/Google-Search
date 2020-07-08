@@ -1,0 +1,91 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: arial, sans-serif;
+}
+
+#navbar {
+  height: 60px;
+  top: 0px;
+  left: 0px;
+  background-color: #f2f2f2;
+  width: 100%;
+  position: relative;
+  text-align: right;
+}
+
+#logo {
+  height: 30px;
+  padding: 15px;
+  float: left;
+}
+
+button {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  color: #5F6368;
+  border: 1px solid #f2f2f2;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+button:hover {
+  background-color: #f5efef;
+  border: 1px solid #aca9a9;
+}
+
+#footer {
+  height: 40px;
+  background-color: #f2f2f2;
+  text-align: left;
+  color: #5F6368;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #DDD;
+  padding: 10px 10px 0 10px;
+  font-size: 20px;
+}
+
+#heading th {
+  text-align: left;
+}
+
+#input {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+
+th {
+  font-size: 16px;
+}
+
+.first_column, .second_column, .third_column {
+  font-size: 13px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  opacity: 80%;
+}
+.first_column input, .second_column input, .third_column input {
+  opacity: 100%;
+  width: 300px;
+  height: 20px;
+}
+.first_column td.first_column, .first_column th.first_column, .second_column td.first_column, .second_column th.first_column, .third_column td.first_column, .third_column th.first_column {
+  text-align: left;
+  width: 30%;
+  width: 300px;
+}
+.first_column .second_column, .second_column .second_column, .third_column .second_column {
+  width: 50%;
+}
+.first_column .third_column, .second_column .third_column, .third_column .third_column {
+  text-align: right;
+  width: 300px;
+}
+
+/*# sourceMappingURL=adv.css.map */

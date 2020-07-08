@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+#navbar {
+  padding-top: 20px;
+  text-align: right;
+}
+
+#bar {
+  width: 540px;
+  border-radius: 54px;
+  border: 1px solid #cfcece;
+  padding: 10px;
+}
+
+#bar:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0px;
+}
+
+#bar:active {
+  box-shadow: 2px #5F6368;
+}
+
+#search_icon1 {
+  float: left;
+  padding-bottom: 8px;
+}
+
+#camera {
+  float: right;
+  padding-bottom: 8px;
+}
+
+#search_icon2 {
+  float: right;
+  padding-bottom: 8px;
+}
+
+#voice-icon {
+  float: right;
+  padding-bottom: 8px;
+}
+
+span {
+  margin: 5px;
+}
+
+img {
+  padding-top: 200px;
+  height: 92px;
+  width: 272px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+}
+
+a {
+  padding: 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: #5F6368;
+}
+
+button {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  color: #5F6368;
+  border: 1px solid #f2f2f2;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#footer {
+  height: 40px;
+  background-color: #f2f2f2;
+  text-align: left;
+  color: #5F6368;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #DDD;
+  padding: 10px 10px 0 10px;
+  font-size: 20px;
+}
+
+.svg-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #818488;
+}
+
+.svg-icon circle {
+  stroke: #818488;
+  stroke-width: 1;
+}
+
+/*# sourceMappingURL=images.css.map */

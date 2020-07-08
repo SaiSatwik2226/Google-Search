@@ -1,0 +1,57 @@
+body{
+	font-family: arial,sans-serif;
+}
+
+img {
+	width: 80px;
+	height: 30px;
+}
+
+header{
+	width: 100%;
+	background-color: #F1F1F1;
+	height: 40px;
+	padding: 8px;
+	padding-top: 14px;
+}
+
+.Appbar{
+	color:#D93025;
+	font-size: 20px;
+	font-family: arial,sans-serif;
+}
+form{
+	padding-top: 40px;
+	padding-left: 25px;
+}
+
+.form-label{
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+.form-text{
+	margin-left: 60px;	
+}
+
+.form-div{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+input{
+	width: 500px;
+	height: 25px;
+}
+
+button{
+	float: right;
+	margin-top: 20px;
+	background-color: #4D90FE;
+	color: white;
+	border: none;
+	height: 20px;
+	padding: 20px;
+
+}
+

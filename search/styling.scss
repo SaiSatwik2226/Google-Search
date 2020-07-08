@@ -1,0 +1,99 @@
+#hplogo{
+    padding-top:109px;
+    height: 92px;
+    width: 272px;
+}
+
+search_icon {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+.svg-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #818488;
+}
+
+.svg-icon circle {
+  stroke: #818488;
+  stroke-width: 1;
+}
+
+#search_bar {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    align-content: center;
+}
+
+center {
+    width: 1030px;
+    height: 391px;
+}
+
+#main {
+    width: 1500px;
+    height: 450px;
+}
+
+
+#toButtons {     
+    width: 571px;
+    height: 88px; 
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+    display: block;
+    text-align: -webkit-center;
+
+    input {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+    
+}
+}
+
+#toButtons input:hover{
+    border: grey;
+    margin: auto;
+}
+
+#voice-icon {
+    display: flex; flex: 0 0 auto; margin-top: 0px; align-items: center; flex-direction: row; padding-left: 20px;
+}
+
+#box {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+}
